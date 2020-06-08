@@ -15,8 +15,8 @@ git clone https://github.com/CoffeaTeam/coffea-hats.git
 cd coffea-hats
 python3.6 -m venv coffea-hats
 source coffea-hats/bin/activate
-python -m pip install setuptools pip --upgrade
-python -m pip install coffea #[spark]
+python -m pip install setuptools pip wheel --upgrade
+python -m pip install xrootd coffea #[spark]
 ipython kernel install --user --name=coffea-hats
 ```
 
