@@ -16,7 +16,8 @@ cd coffea-hats
 python3.6 -m venv coffea-hats
 source coffea-hats/bin/activate
 python -m pip install setuptools pip wheel --upgrade
-python -m pip install xrootd coffea #[spark]
+python -m pip install coffea #[spark]
+MAKEFLAGS='-j8' python -m pip install xrootd==$(xrdcp --version 2>&1 | sed 's/v//')
 ipython kernel install --user --name=coffea-hats
 ```
 
