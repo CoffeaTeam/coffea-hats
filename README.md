@@ -20,5 +20,6 @@ python -m pip install xxhash coffea #[spark]
 MAKEFLAGS='-j8' python -m pip install xrootd==$(xrdcp --version 2>&1 | sed 's/v//')
 ipython kernel install --user --name=coffea-hats
 ```
+There will be some small amount of installation warnings.
 
 Now, all notebooks should be runnable with the `coffea-hats` kernel.
