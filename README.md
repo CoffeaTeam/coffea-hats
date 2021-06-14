@@ -9,3 +9,5 @@ details are documented at https://coffeateam.github.io/coffea/installation.html
 
 Follow [these instructions](https://coffea-casa.readthedocs.io/en/latest/cc_user.html) to login to coffea-casa.
 Select the "Coffea Base image", and once loaded, you can clone this repository (`https://github.com/CoffeaTeam/coffea-hats.git`) following the [git instructions](https://coffea-casa.readthedocs.io/en/latest/cc_user.html#using-git).
+
+If you choose not to use coffea-casa, be aware that any xrootd file URLs in the notebooks will need to have their prefix changed from `root://xcache/` to `root://cmsxrootd.fnal.gov/` or your favorite redirector.
