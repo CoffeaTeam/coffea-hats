@@ -10,7 +10,7 @@ Follow [these instructions](https://coffea-casa.readthedocs.io/en/latest/cc_user
 In the docker image selection dialog, select the *Coffea Base image*.
 Once loaded, you can clone this repository (`https://github.com/CoffeaTeam/coffea-hats.git`)
 following the [git instructions](https://coffea-casa.readthedocs.io/en/latest/cc_user.html#using-git) further down in the same page.
-Click on the `01-histograms.ipynb` notebook in the left pane to open it, and you should end up with something like this:
+Click on the `01-nanoevents.ipynb` notebook in the left pane to open it, and you should end up with something like this:
 
 ![JupyterLab screen](/img/notebook.png)
 
